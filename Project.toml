@@ -3,6 +3,12 @@ uuid = "a1f7094c-8d14-434f-a772-7144e1a1c6c0"
 authors = ["Lucas C Wilcox <lucas@swirlee.com> and contributors"]
 version = "0.0.0"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StaticNumbers = "c5e4b96a-f99f-5557-8ed2-dc63ef9b5131"
+Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
 [compat]
 julia = "^1.5"
 
