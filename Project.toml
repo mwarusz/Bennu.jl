@@ -4,10 +4,22 @@ authors = ["Lucas C Wilcox <lucas@swirlee.com> and contributors"]
 version = "0.0.0"
 
 [deps]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StaticNumbers = "c5e4b96a-f99f-5557-8ed2-dc63ef9b5131"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
 [compat]
+Adapt = "3"
+CUDA = "2"
+KernelAbstractions = "0.5"
+LoopVectorization = "0.11"
+StaticArrays = "1"
+StaticNumbers = "0.3"
 StructArrays = "0.5"
 Tullio = "0.2"
 julia = "^1.5"

@@ -2,12 +2,14 @@ using Bennu
 using Test
 using Pkg: Pkg
 
+using CUDA
 using FastGaussQuadrature: FastGaussQuadrature
 using StaticArrays
 using StructArrays
 using Tullio
 
 include("arrays.jl")
+include("grids.jl")
 include("operators.jl")
 include("partitions.jl")
 include("quadratures.jl")
