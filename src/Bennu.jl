@@ -14,7 +14,7 @@ export UniformCartesianGrid
 export spectralderivative, spectralinterpolation, legendregauss,
        legendregausslobatto, partition, hilbertcode, quantize, coordtype,
        arraytype, polynomialorder, elements, referencepoints,
-       referenceweights, referencederivative, minimum, maximum
+       referenceweights, referencederivative, minimum, maximum, components
 
 include("arrays.jl")
 include("grids.jl")
