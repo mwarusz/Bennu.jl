@@ -4,6 +4,7 @@ using Pkg: Pkg
 
 using CUDA
 using FastGaussQuadrature: FastGaussQuadrature
+using SHA: sha1
 using StaticArrays
 using StructArrays
 using Tullio
@@ -13,6 +14,7 @@ CUDA.allowscalar(false)
 include("arrays.jl")
 include("grids.jl")
 include("operators.jl")
+include("outputs.jl")
 include("partitions.jl")
 include("quadratures.jl")
 
