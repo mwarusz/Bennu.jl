@@ -8,6 +8,8 @@ using StaticArrays
 using StructArrays
 using Tullio
 
+CUDA.allowscalar(false)
+
 include("arrays.jl")
 include("grids.jl")
 include("operators.jl")
